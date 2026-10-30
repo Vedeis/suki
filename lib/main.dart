@@ -27,7 +27,7 @@ class MoneyFlowApp extends StatelessWidget {
           brightness: Brightness.dark,
           surface: const Color(0xFF131C1A),
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: const Color(0xFF131C1A),
           elevation: 0,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
